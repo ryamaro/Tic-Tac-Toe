@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Tic Tac Toe</title>
 </head>
 
 <body>
@@ -111,27 +111,27 @@
             if ((campo1 == "X" && campo2 == "X" && campo3 == "X") || (campo1 == "O" && campo2 == "O" && campo3 == "O")) {
                 linha = 1
             }
-            if (campo4 == "X" && campo5 == "X" && campo6 == "X" || (campo4 == "O" && campo5 == "O" && campo6 == "O")) {
+            if ((campo4 == "X" && campo5 == "X" && campo6 == "X") || (campo4 == "O" && campo5 == "O" && campo6 == "O")) {
                 linha = 2
             }
-            if (campo7 == "X" && campo8 == "X" && campo9 == "X" || (campo7 == "O" && campo8 == "O" && campo9 == "O")) {
+            if ((campo7 == "X" && campo8 == "X" && campo9 == "X") || (campo7 == "O" && campo8 == "O" && campo9 == "O")) {
                 linha = 3
             }
             // VITORIA POR COLUNA
-            if (campo1 == "X" && campo4 == "X" && campo7 == "X" || (campo1 == "O" && campo4 == "O" && campo7 == "O")) {
+            if ((campo1 == "X" && campo4 == "X" && campo7 == "X") || (campo1 == "O" && campo4 == "O" && campo7 == "O")) {
                 linha = 4
             }
-            if (campo2 == "X" && campo5 == "X" && campo8 == "X" || (campo2 == "O" && campo5 == "O" && campo8 == "O")) {
+            if ((campo2 == "X" && campo5 == "X" && campo8 == "X") || (campo2 == "O" && campo5 == "O" && campo8 == "O")) {
                 linha = 5
             }
-            if (campo3 == "X" && campo6 == "X" && campo9 == "X" || (campo3 == "O" && campo6 == "O" && campo9 == "O")) {
+            if ((campo3 == "X" && campo6 == "X" && campo9 == "X") || (campo3 == "O" && campo6 == "O" && campo9 == "O")) {
                 linha = 6
             }
             // VITORIA POR DIAGONAIS
-            if (campo1 == "X" && campo5 == "X" && campo9 == "X" || (campo1 == "O" && campo5 == "O" && campo9 == "O")) {
+            if ((campo1 == "X" && campo5 == "X" && campo9 == "X") || (campo1 == "O" && campo5 == "O" && campo9 == "O")) {
                 linha = 7
             }
-            if (campo7 == "X" && campo5 == "X" && campo3 == "X" || (campo7 == "O" && campo5 == "O" && campo3 == "O")) {
+            if ((campo7 == "X" && campo5 == "X" && campo3 == "X") || (campo7 == "O" && campo5 == "O" && campo3 == "O")) {
                 linha = 8
             }
 
